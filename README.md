@@ -1,4 +1,6 @@
 # [Become a DevOps expert using Terraform on Azure.](https://sparknz.udemy.com/course/terraform-on-azure/learn/lecture/17131278#overview)
+[Course files](https://github.com/in4it/terraform-azure-course)
+
 
 ## Install Tearraform and Azure CLI as per standrad instructions for your OS
 
@@ -40,3 +42,9 @@
     - Use first time / add module / add provider
 - terraform destroy
 - terraform help
+
+
+## Misc
+- Get IP address of laptop : curl ifconfig.co
+- Generatekey : ssh-keygen -f mykey
+- ssh using key : ssh ip-address -i mykey_pvt_file_name -l user_id
