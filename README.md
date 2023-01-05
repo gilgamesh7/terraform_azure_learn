@@ -16,6 +16,9 @@
     - var.mylist[0]
     - element(var.mylist, 1)
     - slice(var.mylist, 1,2)
+    - azurerm_resource_group.#group_name".id 
+    - azurerm_resource_group.#group_name".name
+    - azurerm_resource_group.#group_name".name
 
 ## Variables
 ### Simple Types
@@ -43,6 +46,9 @@
 - terraform destroy
 - terraform help
 
+## Azure Documentation
+- [Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+- [Features block](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/features-block)
 
 ## Misc
 - Get IP address of laptop : curl ifconfig.co
