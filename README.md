@@ -46,9 +46,13 @@
 - terraform destroy
 - terraform help
 
-## Azure Documentation
+## Terraform/Azure Documentation
 - [Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
 - [Features block](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/features-block)
+- VM
+    - List all images for storage_image_reference block:
+        - az vm image list -p "Canonical"
+        - az vm image list -p "Microsoft"
 
 ## Misc
 - Get IP address of laptop : curl ifconfig.co
