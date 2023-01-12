@@ -53,6 +53,9 @@
     - List all images for storage_image_reference block:
         - az vm image list -p "Canonical"
         - az vm image list -p "Microsoft"
+- [Azure Templates](https://learning.oreilly.com/library/view/azure-infrastructure-as/9781617299421/OEBPS/Text/02.htm#:-:text=https%3A%2F%2Fdocs.microsoft.com%2Fazure%2Ftemplates%20)
+- [Azure templates on github](https://github.com/Azure/azure-quickstart-templates)
+- [ARM Visualizer](http://armviz.io/editor)
 
 ## Misc
 - Get IP address of laptop : curl ifconfig.co
